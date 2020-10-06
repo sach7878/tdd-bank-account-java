@@ -9,6 +9,6 @@ public class AccountTest {
 
     @Test
     public void depositAnAmountToIncreaseTheBalance() {
-        assertThat("your first test").isBlank();
+        assertThat("your first test").isNotBlank();
     }
 }
